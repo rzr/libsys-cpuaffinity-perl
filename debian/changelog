@@ -1,0 +1,5 @@
+libsys-cpuaffinity-perl (1.13~03-ok1) nile; urgency=medium
+
+  * Build for openKylin.
+
+ -- zhouganqing <zhouganqing@kylinos.cn>  Wed, 03 Jan 2024 10:08:42 +0800
