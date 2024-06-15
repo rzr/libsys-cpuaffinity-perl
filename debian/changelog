@@ -1,3 +1,9 @@
+libsys-cpuaffinity-perl (1.13~03-ok2) nile; urgency=medium
+
+  * No change rebuild
+
+ -- CI Bot <cibot@openkylin.top>  Sat, 15 Jun 2024 05:50:50 +0000
+
 libsys-cpuaffinity-perl (1.13~03-ok1) nile; urgency=medium
 
   * Build for openKylin.
