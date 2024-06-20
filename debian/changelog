@@ -1,3 +1,9 @@
+libsys-cpuaffinity-perl (1.13~03-ok3) nile; urgency=medium
+
+  * fix build error 
+
+ -- liyang <liyang01@kylinos.cn>  Thu, 20 Jun 2024 11:28:35 +0800
+
 libsys-cpuaffinity-perl (1.13~03-ok2) nile; urgency=medium
 
   * No change rebuild
