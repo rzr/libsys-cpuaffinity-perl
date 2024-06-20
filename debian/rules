@@ -4,3 +4,5 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
 	dh $@
+override_dh_auto_configure:
+	/usr/bin/perl Build.PL --installdirs vendor --config "-j4 optimize=-g -O2 -ffile-prefix-map=/<<PKGBUILDDIR>>=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2" --config "ld=x86_64-linux-gnu-gcc -g -O2 -ffile-prefix-map=/<<PKGBUILDDIR>>=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -Wl,-z,now"
